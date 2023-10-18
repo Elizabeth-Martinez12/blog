@@ -1,0 +1,104 @@
+CRITICAL - 2023-10-18 04:59:07 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 04:59:08 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 04:59:42 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 04:59:43 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:02:02 --> Undefined property: App\Controllers\ExportarBase::$blog
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$blog', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:02:04 --> Undefined property: App\Controllers\ExportarBase::$blog
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$blog', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:02:05 --> Undefined property: App\Controllers\ExportarBase::$blog
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$blog', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:03:16 --> Undefined property: App\Controllers\ExportarBase::$blog
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$blog', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:03:17 --> Undefined property: App\Controllers\ExportarBase::$blog
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$blog', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:03:40 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:03:41 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:10:29 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-18 05:10:30 --> Undefined property: App\Controllers\ExportarBase::$dbutil
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ExportarBase::$dbutil', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')

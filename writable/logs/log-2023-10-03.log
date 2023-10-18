@@ -1,0 +1,275 @@
+CRITICAL - 2023-10-03 14:45:16 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\PostController/ejercicio01"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\PostController/ejercicio01')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('posts/01')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('posts/01')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-03 14:49:47 --> mysqli_sql_exception: Table 'blog.post' doesn't exist in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from p...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from p...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from p...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(10): CodeIgniter\Database\BaseConnection->query('select * from p...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-03 14:49:47 --> Table 'blog.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(10): CodeIgniter\Database\BaseConnection->query('select * from post limit 5')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-03 15:16:17 --> mysqli_sql_exception: Unknown column 'u.username' in 'field list' in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.id as ...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.id as ...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.id as ...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(10): CodeIgniter\Database\BaseConnection->query('select p.id as ...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-03 15:16:17 --> Unknown column 'u.username' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(10): CodeIgniter\Database\BaseConnection->query('select p.id as "POST ID", c.category as "CATEGORIA", p.title, u.username from posts as p join categories as c on p.category = c.id limit 10 ')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-03 15:27:31 --> mysqli_sql_exception: Unknown column 'created' in 'where clause' in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.id as ...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.id as ...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.id as ...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(11): CodeIgniter\Database\BaseConnection->query('select p.id as ...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-03 15:27:31 --> Unknown column 'created' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(11): CodeIgniter\Database\BaseConnection->query('select p.id as "POST ID", c.category as "CATEGORIA", p.title as "TITULO", u.username as "NOMBRE DE USUARIO" from posts as p join categories as c on p.category = c.id join users as u on u.id = p.autor where created between "2023/01/01" and "2023/12/30"')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-03 15:27:42 --> mysqli_sql_exception: Column 'created_at' in where clause is ambiguous in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.id as ...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.id as ...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.id as ...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(11): CodeIgniter\Database\BaseConnection->query('select p.id as ...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-03 15:27:42 --> Column 'created_at' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(11): CodeIgniter\Database\BaseConnection->query('select p.id as "POST ID", c.category as "CATEGORIA", p.title as "TITULO", u.username as "NOMBRE DE USUARIO" from posts as p join categories as c on p.category = c.id join users as u on u.id = p.autor where created_at between "2023/01/01" and "2023/12/30"')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-03 15:27:43 --> mysqli_sql_exception: Column 'created_at' in where clause is ambiguous in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.id as ...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.id as ...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.id as ...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(11): CodeIgniter\Database\BaseConnection->query('select p.id as ...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-03 15:27:43 --> Column 'created_at' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(11): CodeIgniter\Database\BaseConnection->query('select p.id as "POST ID", c.category as "CATEGORIA", p.title as "TITULO", u.username as "NOMBRE DE USUARIO" from posts as p join categories as c on p.category = c.id join users as u on u.id = p.autor where created_at between "2023/01/01" and "2023/12/30"')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:37:42 --> Undefined variable $usuarios
+in APPPATH\Views\posts\ejercicio01.php on line 16.
+ 1 APPPATH\Views\posts\ejercicio01.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:39:20 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:40:03 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\posts\ejercicio01.php on line 21.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 3 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:40:23 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:42:06 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:42:35 --> Undefined variable $post
+in APPPATH\Views\posts\ejercicio01.php on line 17.
+ 1 APPPATH\Views\posts\ejercicio01.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:43:03 --> Undefined variable $posts2
+in APPPATH\Views\posts\ejercicio01.php on line 17.
+ 1 APPPATH\Views\posts\ejercicio01.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts2', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:43:20 --> Undefined array key "p.id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "p.id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:44:23 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:46:51 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:47:00 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:47:13 --> Undefined variable $posts2
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts2', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:48:00 --> Undefined variable $posts2
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts2', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-03 15:48:31 --> Undefined variable $posts2
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts2', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')

@@ -1,0 +1,56 @@
+ERROR - 2023-09-19 15:06:46 --> mysqli_sql_exception: Unknown column 'posts' in 'field list' in C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', NULL, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\app\Database\Seeds\CommentsSeeder.php(30): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\Seeder.php(146): App\Database\Seeds\CommentsSeeder->run()
+#7 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-09-19 15:07:58 --> mysqli_sql_exception: Unknown column 'posts' in 'field list' in C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', NULL, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\app\Database\Seeds\CommentsSeeder.php(30): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\Seeder.php(146): App\Database\Seeds\CommentsSeeder->run()
+#7 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-09-19 15:08:36 --> mysqli_sql_exception: Unknown column 'posts' in 'field list' in C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', NULL, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\app\Database\Seeds\CommentsSeeder.php(30): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\Seeder.php(146): App\Database\Seeds\CommentsSeeder->run()
+#7 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-09-19 15:09:23 --> mysqli_sql_exception: Unknown column 'posts' in 'field list' in C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', NULL, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\app\Database\Seeds\CommentsSeeder.php(30): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Database\Seeder.php(146): App\Database\Seeds\CommentsSeeder->run()
+#7 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\eliza\OneDrive\Documentos\blog\codeigniter4-framework-844616e\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

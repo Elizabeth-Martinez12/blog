@@ -1,0 +1,352 @@
+CRITICAL - 2023-10-04 14:14:30 --> Undefined variable $posts2
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts2', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:17:07 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:20:27 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:24:20 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(19): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:25:44 --> Undefined variable $posts2
+in APPPATH\Controllers\PostController.php on line 14.
+ 1 APPPATH\Controllers\PostController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts2', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\PostController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:25:55 --> Undefined array key "id"
+in APPPATH\Views\posts\ejercicio01.php on line 19.
+ 1 APPPATH\Views\posts\ejercicio01.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(17): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:26:46 --> Undefined array key "category"
+in APPPATH\Views\posts\ejercicio01.php on line 20.
+ 1 APPPATH\Views\posts\ejercicio01.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio01.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio01', [], true)
+ 5 APPPATH\Controllers\PostController.php(17): view('posts/ejercicio01', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio01()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-04 14:39:40 --> Undefined array key "totalUsuarios"
+in APPPATH\Views\posts\ejercicio05.php on line 11.
+ 1 APPPATH\Views\posts\ejercicio05.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalUsuarios"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio05.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Views\\posts\\ejercicio05.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('posts/ejercicio05', [], true)
+ 5 APPPATH\Controllers\PostController.php(38): view('posts/ejercicio05', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio05()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:37:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:37:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:38:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:38:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as category, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:39:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:39:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as categories, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:41:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:41:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as categoria, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:41:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:41:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as categoria, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:41:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:41:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as categoria, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:41:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ccategory' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:41:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ccategory' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order ccategory')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:42:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'categories' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:42:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'categories' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order categories')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:42:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'categories' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:42:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'categories' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order categories')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:43:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:43:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:43:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:43:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:45:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:45:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-04 15:55:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1 in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(306): mysqli->query('select p.*, cat...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select p.*, cat...')
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select p.*, cat...')
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, cat...')
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#9 {main}
+CRITICAL - 2023-10-04 15:55:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'category' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\PostController.php(46): CodeIgniter\Database\BaseConnection->query('select p.*, category as ccategory, count(*) as ppc from categories as c join posts as p on p.category = c.id group by category order category')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->ejercicio06()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
