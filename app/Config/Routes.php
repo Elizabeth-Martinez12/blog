@@ -23,4 +23,5 @@ $routes->get('posts/09', 'PostController::ejercicio09');
 $routes->get('posts/10', 'PostController::ejercicio10');
 
 
-$routes->get('baseDatos/mostrar', 'ExportarBase::exportar');
+$routes->get('baseDatos/mostrar', 'ExportarBase::mostrar');
+$routes->get('baseDatos/exportar', 'ExportarBase::exportar');

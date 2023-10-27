@@ -1,0 +1,8 @@
+CRITICAL - 2023-10-27 05:14:09 --> Undefined variable $username
+in APPPATH\Controllers\ExportarBase.php on line 23.
+ 1 APPPATH\Controllers\ExportarBase.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->exportar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')

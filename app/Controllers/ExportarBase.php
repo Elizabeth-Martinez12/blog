@@ -6,26 +6,31 @@ use App\Controllers\BaseController;
 
 class ExportarBase extends BaseController
 {
-    public function exportar()
-    {
+
+    public function mostrar(){
         $db = \Config\Database::connect();
-
-        $username = $db->username;
-        $password = $db->password;
-        $database = $db->database;
-
-        $backupFile = WRITEPATH . 'backups/' . date('Y-m-d-H-i-s') . '.sql';
-
-        $command = "mysqldump --user={$username} --password={$password} {$database} > {$backupFile}";
-        exec($command);
-
-        if (file_exists($backupFile)) {
-            $this->response->download($backupFile, null)->setFileName('backup.sql');
-            return $this->response;
-        } else {
-            return 'Error al exportar la base de datos.';
-        }
+        return 
+        view('baseDatos/mostrar');
     }
-    
-}
 
+    public function exportar()
+{
+    $backupFile = 'C:\Users\eliza\AppData\Roaming\DBeaverData\workspace6\General\Scripts\Script-1.sql';
+    $ruta = 'C:\xampp\mysql\bin\mysqldump.exe';
+    
+    $databaseName = 'blog'; 
+    $username = 'root'; 
+    $password = '';
+
+    $command = "$ruta -u $username";
+
+    $command .= " $databaseName > $backupFile";
+    exec($command);
+
+    if (file_exists($backupFile)) {
+        return $this->response->download($backupFile, null)->setFileName('Script-1.csv');
+    } else {
+        return 'Error al exportar la base de datos.';
+    }
+    }
+}

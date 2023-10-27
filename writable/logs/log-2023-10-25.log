@@ -1,0 +1,188 @@
+CRITICAL - 2023-10-25 15:27:10 --> Unclosed '{' on line 12
+in APPPATH\Controllers\ExportarBase.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExportarBase')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExportarBase')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ExportarBase', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-25 15:47:20 --> Undefined variable $backupFile
+in APPPATH\Controllers\ExportarBase.php on line 20.
+ 1 APPPATH\Controllers\ExportarBase.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $backupFile', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->exportar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-25 16:04:59 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'blog', 3307, '', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\ExportarBase.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+#9 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\ExportarBase.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#11 {main}
+CRITICAL - 2023-10-25 16:04:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ExportarBase.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-25 16:06:14 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'blog', 3307, '', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\ExportarBase.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+#9 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\ExportarBase.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#11 {main}
+CRITICAL - 2023-10-25 16:06:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ExportarBase.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+ERROR - 2023-10-25 16:07:24 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'blog', 3307, '', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\ExportarBase.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+#9 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\eliza\OneDrive\Documentos\blog1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\eliza\OneDrive\Documentos\blog1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\eliza\OneDrive\Documentos\blog1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\eliza\OneDrive\Documentos\blog1\app\Controllers\ExportarBase.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+#7 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+#8 C:\Users\eliza\OneDrive\Documentos\blog1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\eliza\OneDrive\Documentos\blog1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\eliza\OneDrive\Documentos\blog1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#11 {main}
+CRITICAL - 2023-10-25 16:07:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ExportarBase.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-25 16:08:03 --> Undefined variable $data
+in APPPATH\Controllers\ExportarBase.php on line 13.
+ 1 APPPATH\Controllers\ExportarBase.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-25 16:08:04 --> Undefined variable $data
+in APPPATH\Controllers\ExportarBase.php on line 13.
+ 1 APPPATH\Controllers\ExportarBase.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\app\\Controllers\\ExportarBase.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-25 16:21:48 --> File not found: "C:\Users\eliza\OneDrive\Documentos\blog1\public\respaldo"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\respaldo')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(102): CodeIgniter\Files\File->__construct('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\respaldo', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(806): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\respaldo')
+ 4 APPPATH\Controllers\ExportarBase.php(27): CodeIgniter\HTTP\Response->download('respaldo', null)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->exportar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
+CRITICAL - 2023-10-25 16:22:06 --> File not found: "C:\Users\eliza\OneDrive\Documentos\blog1\public\respaldo"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\respaldo')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(102): CodeIgniter\Files\File->__construct('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\respaldo', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(806): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\respaldo')
+ 4 APPPATH\Controllers\ExportarBase.php(27): CodeIgniter\HTTP\Response->download('respaldo', null)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ExportarBase->exportar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExportarBase))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\blog1\\public\\index.php')
